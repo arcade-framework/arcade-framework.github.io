@@ -1,2 +1,4 @@
-# arcade-framework.github.io
-ARCADE Framework for Safety Assurance Information Management
+# ARCADE (AssuRance CAse DEvelopment)
+## A Framework for Safety Assurance Information Management
+
+This is a supporting page for **evaluation of ARCADE framework**.
