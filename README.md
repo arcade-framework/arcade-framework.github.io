@@ -14,10 +14,7 @@ ARCADE framework proposes a mechanism to automatically retrieve and process assu
 
 ARCADE framework also generates assurance case fragments based on the project information, helping teams in perform an early and continuous assessment of the quality of assurance information recorded in the issue trackers.
 
-<figure>
-<figcaption>ARCADE overview</figcaption>
-  <img src="/arcade-framework-overview.png" width=75%>
-</figure>
+![oi](arcade-framework-overview.png)
 
 ## Evaluation
 
