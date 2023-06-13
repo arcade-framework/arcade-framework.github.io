@@ -16,7 +16,7 @@ ARCADE framework also generates assurance case fragments based on the project in
 
 <figure>
 <figcaption>ARCADE overview</figcaption>
-  <img src="arcade-framework-overview.png" width=75%>
+  <img src="/arcade-framework-overview.png" width=75%>
 </figure>
 
 ## Evaluation
