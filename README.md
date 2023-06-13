@@ -2,6 +2,10 @@
 
 This is a supporting page for the **evaluation of ARCADE framework**.
 
+For further information/questions, please contact:
+- Camilo Almendra at cca3@cin.ufpe.br (primary contact - Universidade Federal de Pernambuco/Brazil)
+- Dr. Carla Silva (Universidade Federal de Pernambuco/Brazil)
+
 ## Context
 
 In critical systems development projects, safety-relevant information (also called assurance information) is key to support the production of certification reports, including Assurance Cases.
