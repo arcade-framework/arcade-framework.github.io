@@ -18,6 +18,6 @@ ARCADE framework also generates assurance case fragments based on the project in
 
 ## Evaluation
 
-To participate in the evaluation, you need to fill out the informed consent and personal profile questionnaire: https://forms.gle/m7fgSxR2N1TngXff7 
+To participate in the evaluation, you need to fill out the informed consent and personal profile questionnaire: [https://forms.gle/m7fgSxR2N1TngXff7](https://forms.gle/m7fgSxR2N1TngXff7) 
 
 
