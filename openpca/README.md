@@ -4,17 +4,15 @@
 for a realistic a PCA Pump. 
 - Link: http://openpcapump.santoslab.org/
 
-<figure>
-<figcaption>Open PCA Pump is used to deliver analgesic in a clinical setting</figcaption>
-  <img src="Imagem1.jpg" width=30%>
-</figure>
+Open PCA Pump is used to deliver analgesic in a clinical setting:
 
-<figure>
-<figcaption>Example of real PCA Pump</figcaption>
-  <img src="Imagem2.jpg" width=30%>
-</figure>
+<img src="Imagem1.jpg" width=30%>
 
-<figure>
-<figcaption>Open PCA Pump architecture overview</figcaption>
-  <img src="Imagem3.jpg" width=30%>
-</figure>
+Example of real PCA Pump:
+
+<img src="Imagem2.jpg" width=30%>
+
+Open PCA Pump architecture overview:
+
+<img src="Imagem3.jpg" width=30%>
+
