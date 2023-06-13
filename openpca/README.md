@@ -2,7 +2,7 @@
 
 - The Open Patient Controlled Analgesic (PCA) Pump project provides open source design artifacts
 for a realistic a PCA Pump. 
-- Link: http://openpcapump.santoslab.org/
+- Link: [http://openpcapump.santoslab.org/](http://openpcapump.santoslab.org/)
 
 Open PCA Pump is used to deliver analgesic in a clinical setting:
 
