@@ -12,7 +12,7 @@ In critical systems development projects, safety-relevant information (also call
 
 Fortunately, much of this information is already stored in project management tools such as issue trackers (Jira and alike) and application lifecycle management systems (Azure, Teamcenter and alike). However, **teams may struggle to identify, classify and analyse the project items that are safety-relevant**.
 
-ARCADE framework proposes a mechanism to automatically retrieve and process assurance information from issue trackers, to help teams in the identification of gaps and inconsistencies that could hinder certification procedures. ARCADE framework also generates assurance case fragments based on the project information, helping teams in perform an early and continuous assessment of the quality of assurance information recorded in the issue trackers.
+ARCADE framework proposes **a mechanism to automatically retrieve and process assurance information from issue trackers**, to help teams in the identification of gaps and inconsistencies that could hinder certification procedures. ARCADE framework also generates assurance case fragments based on the project information, helping teams in perform an **early and continuous assessment of the quality of assurance information** recorded in the issue trackers.
 
 ![](arcade-framework-overview.png)
 
