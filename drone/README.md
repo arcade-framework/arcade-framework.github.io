@@ -54,7 +54,7 @@
 :DRONE-152 rdf:type owl:NamedIndividual .
 :DRONE-152 rdf:type sao:Requirement .
 :DRONE-152 rdfs:label "RPIC will takeover control with the hand-held GCS when deemed necessary" .
-:DRONE-152 rdfs:comment "When the RPIC determines that Dronology has lost control of the UAV for more than
+:DRONE-152 rdfs:comment "When the RPIC determines that Dronology has lost control of the UAV for more than 
 acceptable loss of communication
  minutes, then the RPIC shall take control." .
 :DRONE-152 sao:status "To Do" .
@@ -68,7 +68,7 @@ acceptable loss of communication
 :DRONE-151 rdf:type owl:NamedIndividual .
 :DRONE-151 rdf:type sao:Requirement .
 :DRONE-151 rdfs:label "RPIC will takeover control with the hand-held GCS when deemed necessary" .
-:DRONE-151 rdfs:comment "When the RPIC determines that Dronology has lost control of the UAV for more than
+:DRONE-151 rdfs:comment "When the RPIC determines that Dronology has lost control of the UAV for more than 
 acceptable loss of communication
  minutes, then the RPIC shall take control." .
 :DRONE-151 sao:status "To Do" .
@@ -78,7 +78,7 @@ acceptable loss of communication
 :DRONE-150 rdf:type owl:NamedIndividual .
 :DRONE-150 rdf:type sao:Requirement .
 :DRONE-150 rdfs:label "RPIC will takeover control with the hand-held GCS when deemed necessary" .
-:DRONE-150 rdfs:comment "When the RPIC determines that Dronology has lost control of the UAV for more than
+:DRONE-150 rdfs:comment "When the RPIC determines that Dronology has lost control of the UAV for more than 
 acceptable loss of communication
  minutes, then the RPIC shall take control." .
 :DRONE-150 sao:status "To Do" .
@@ -88,7 +88,7 @@ acceptable loss of communication
 :DRONE-149 rdf:type owl:NamedIndividual .
 :DRONE-149 rdf:type sao:Requirement .
 :DRONE-149 rdfs:label "RPIC will takeover control with the hand-held GCS when deemed necessary" .
-:DRONE-149 rdfs:comment "When the RPIC determines that Dronology has lost control of the UAV for more than
+:DRONE-149 rdfs:comment "When the RPIC determines that Dronology has lost control of the UAV for more than 
 acceptable loss of communication
  minutes, then the RPIC shall take control." .
 :DRONE-149 sao:status "To Do" .
@@ -476,7 +476,7 @@ acceptable loss of communication
 :DRONE-111 rdfs:comment "Given an allocation of routes to N drones – we need to compute a mission cost.  (This could be either positive or negative).  All metrics used to compute the mission cost must be normalized.
 In phase one of the experiment, we plan to compute a task allocation score based on fixed weightings for each of the factors.  However, we need to be able to try different weights.
 This calculation is currently:
-Mission Cost = 0.25 x ((Coverage) + (Downstream Ratio) + (Equality of Tasks) - (collisions) / 5)
+Mission Cost = 0.25 x ((Coverage) + (Downstream Ratio) + (Equality of Tasks) - (collisions) / 5)  
 This weights all of them equally, and a perfect route assignment would receive a score of 1." .
 :DRONE-111 sao:status "To Do" .
 :DRONE-111 sao:creationdate "2023-05-13T17:12:40.555-0300" .
@@ -545,7 +545,7 @@ This weights all of them equally, and a perfect route assignment would receive a
 :DRONE-105 rdf:type owl:NamedIndividual .
 :DRONE-105 rdf:type sao:Assumption .
 :DRONE-105 rdfs:label "Next waypoint sent after previous waypoint reached" .
-:DRONE-105 rdfs:comment "When a flight plan is executed, the
+:DRONE-105 rdfs:comment "When a flight plan is executed, the 
 VehicleCore
  shall send the next waypoint to the UAV after the previous waypoint has been reached." .
 :DRONE-105 sao:status "To Do" .
@@ -587,7 +587,7 @@ VehicleCore
 :DRONE-101 rdf:type owl:NamedIndividual .
 :DRONE-101 rdf:type sao:SafetyRequirement .
 :DRONE-101 rdfs:label "Emergency Notification" .
-:DRONE-101 rdfs:comment "The
+:DRONE-101 rdfs:comment "The 
 RealTimeFlightUI
  shall notify users when an emergency occurs." .
 :DRONE-101 sao:status "To Do" .
@@ -599,7 +599,7 @@ RealTimeFlightUI
 :DRONE-100 rdf:type owl:NamedIndividual .
 :DRONE-100 rdf:type sao:DesignDefinition .
 :DRONE-100 rdfs:label "Periodically update UAV location" .
-:DRONE-100 rdfs:comment "The UI shall periodically request current locations of all registered UAVs from the
+:DRONE-100 rdfs:comment "The UI shall periodically request current locations of all registered UAVs from the 
 UIMiddleware
  and update their locations on the map." .
 :DRONE-100 sao:status "To Do" .
@@ -636,7 +636,7 @@ UIMiddleware
 :DRONE-97 rdf:type owl:NamedIndividual .
 :DRONE-97 rdf:type sao:DesignDefinition .
 :DRONE-97 rdfs:label "Display UAVs on map" .
-:DRONE-97 rdfs:comment "When the map is loaded and the all active UAVs list is obtained the
+:DRONE-97 rdfs:comment "When the map is loaded and the all active UAVs list is obtained the 
 UIRealTimeFlightView
  shall display an icon on the map for each registered UAV based on its current location." .
 :DRONE-97 sao:status "To Do" .
@@ -658,9 +658,9 @@ UIRealTimeFlightView
 :DRONE-95 rdf:type owl:NamedIndividual .
 :DRONE-95 rdf:type sao:DesignDefinition .
 :DRONE-95 rdfs:label "Visiting waypoints during flight plan" .
-:DRONE-95 rdfs:comment "When the UAV reaches a target waypoint, if additional waypoints are specified in the flight plan, then the
+:DRONE-95 rdfs:comment "When the UAV reaches a target waypoint, if additional waypoints are specified in the flight plan, then the 
 VehicleCore
-  shall send the next waypoint to the UAV's
+  shall send the next waypoint to the UAV's 
 GCS
 ." .
 :DRONE-95 sao:status "To Do" .
@@ -673,7 +673,7 @@ GCS
 :DRONE-94 rdf:type owl:NamedIndividual .
 :DRONE-94 rdf:type sao:DesignDefinition .
 :DRONE-94 rdfs:label "Determine if waypoint is reached" .
-:DRONE-94 rdfs:comment "If the computed distance from the UAV to the target waypoint is less than
+:DRONE-94 rdfs:comment "If the computed distance from the UAV to the target waypoint is less than 
 THRESHOLD_WAYPOINT_DISTANCE
  than the waypoint shall be considered reached." .
 :DRONE-94 sao:status "To Do" .
@@ -686,9 +686,9 @@ THRESHOLD_WAYPOINT_DISTANCE
 :DRONE-93 rdf:type owl:NamedIndividual .
 :DRONE-93 rdf:type sao:DesignDefinition .
 :DRONE-93 rdfs:label "Compute distance to next waypoint" .
-:DRONE-93 rdfs:comment "When the
+:DRONE-93 rdfs:comment "When the 
 VehicleCore
- receives the UAV's current coordinates and if the UAV has an assigned target waypoint, then the
+ receives the UAV's current coordinates and if the UAV has an assigned target waypoint, then the 
 VehicleCore
  shall compute the current distance to the target waypoint." .
 :DRONE-93 sao:status "To Do" .
@@ -701,7 +701,7 @@ VehicleCore
 :DRONE-92 rdf:type owl:NamedIndividual .
 :DRONE-92 rdf:type sao:DesignDefinition .
 :DRONE-92 rdfs:label "Send first waypoint at start of flight plan" .
-:DRONE-92 rdfs:comment "At the start of a flight plan the system shall send the first target waypoint to the UAV's
+:DRONE-92 rdfs:comment "At the start of a flight plan the system shall send the first target waypoint to the UAV's 
 GCS
 ." .
 :DRONE-92 sao:status "To Do" .
@@ -858,7 +858,7 @@ GCS
 :DRONE-78 rdf:type owl:NamedIndividual .
 :DRONE-78 rdf:type sao:SafetyRequirement .
 :DRONE-78 rdfs:label "Return home along a unique path when issued RTL command" .
-:DRONE-78 rdfs:comment "When the 'return to home' command is issued the
+:DRONE-78 rdfs:comment "When the 'return to home' command is issued the 
 FlightManager
  shall immediately command the the UAV to return to its original launch location using a unique flight route." .
 :DRONE-78 sao:status "To Do" .
@@ -883,7 +883,7 @@ FlightManager
 :DRONE-76 rdf:type owl:NamedIndividual .
 :DRONE-76 rdf:type sao:DesignDefinition .
 :DRONE-76 rdfs:label "Update UAV location frequency" .
-:DRONE-76 rdfs:comment "The UAV location shall be updated on the map at the currently defined
+:DRONE-76 rdfs:comment "The UAV location shall be updated on the map at the currently defined 
 UI_UAV_REFRESH_RATE" .
 :DRONE-76 sao:status "To Do" .
 :DRONE-76 sao:creationdate "2023-05-13T17:12:20.088-0300" .
@@ -897,7 +897,7 @@ UI_UAV_REFRESH_RATE" .
 :DRONE-75 rdf:type owl:NamedIndividual .
 :DRONE-75 rdf:type sao:Assumption .
 :DRONE-75 rdfs:label "Real-Time Flight UI display status of all active UAVs" .
-:DRONE-75 rdfs:comment "The
+:DRONE-75 rdfs:comment "The 
 RealTimeFlightUI
  shall display the location and status of active UAVs." .
 :DRONE-75 sao:status "To Do" .
@@ -944,7 +944,7 @@ RealTimeFlightUI
 :DRONE-70 rdf:type owl:NamedIndividual .
 :DRONE-70 rdf:type sao:Requirement .
 :DRONE-70 rdfs:label "When a GPS calibration error is reported, the dronology operator will issue a RTL command." .
-:DRONE-70 rdfs:comment "When the RPIC determines that Dronology has lost control of the UAV for more than
+:DRONE-70 rdfs:comment "When the RPIC determines that Dronology has lost control of the UAV for more than 
 acceptable loss of communication
  minutes, then the RPIC shall take control." .
 :DRONE-70 sao:status "To Do" .
@@ -972,7 +972,7 @@ acceptable loss of communication
 :DRONE-67 rdf:type owl:NamedIndividual .
 :DRONE-67 rdf:type sao:Requirement .
 :DRONE-67 rdfs:label "When a route is run in the simulator and MINIMUM_SEPARATION_DISTANCE is violated an error shall be reported in the simulator log." .
-:DRONE-67 rdfs:comment "When a route is run in the simulator and
+:DRONE-67 rdfs:comment "When a route is run in the simulator and 
 MINIMUM_SEPARATION_DISTANCE
  is violated an error shall be reported in the simulator log." .
 :DRONE-67 sao:status "To Do" .
@@ -1059,7 +1059,7 @@ MINIMUM_SEPARATION_DISTANCE
 :DRONE-57 rdf:type owl:NamedIndividual .
 :DRONE-57 rdf:type sao:DesignDefinition .
 :DRONE-57 rdfs:label "When a _MINIMUM_SEPARATION_DISTANCE_ violation occurs, Dronology will issue a zero NED directive causing UAVs to hover in place.." .
-:DRONE-57 rdfs:comment "When a
+:DRONE-57 rdfs:comment "When a 
 MINIMUM_SEPARATION_DISTANCE
  violation occurs, Dronology will issue a zero NED directive to both impacted UAVs causing them both to stop and hover in place." .
 :DRONE-57 sao:status "To Do" .
@@ -1072,7 +1072,7 @@ MINIMUM_SEPARATION_DISTANCE
 :DRONE-56 rdf:type owl:NamedIndividual .
 :DRONE-56 rdf:type sao:DesignDefinition .
 :DRONE-56 rdfs:label "Dronology monitors the distance between all active pairs of UAVs and checks for proximity violations" .
-:DRONE-56 rdfs:comment "Dronology shall monitor the distance between all active pairs of UAVs and check for violations of the
+:DRONE-56 rdfs:comment "Dronology shall monitor the distance between all active pairs of UAVs and check for violations of the 
 MINIMUM_SEPARATION_DISTANCE
 ." .
 :DRONE-56 sao:status "To Do" .
@@ -1093,7 +1093,7 @@ MINIMUM_SEPARATION_DISTANCE
 :DRONE-54 rdf:type owl:NamedIndividual .
 :DRONE-54 rdf:type sao:SafetyRequirement .
 :DRONE-54 rdfs:label "When two UAVs violate the _MINIMUM_SEPARATION_DISTANCE_ they will both stop and hover in place." .
-:DRONE-54 rdfs:comment "When two UAVs violate the
+:DRONE-54 rdfs:comment "When two UAVs violate the 
 MINIMUM_SEPARATION_DISTANCE
  they will both stop and hover in place." .
 :DRONE-54 sao:status "To Do" .
