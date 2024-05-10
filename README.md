@@ -3,8 +3,10 @@
 This is a supporting page for the **evaluation of ARCADE framework**.
 
 For further information/questions, please contact:
-- Camilo Almendra at cca3@cin.ufpe.br (primary contact - Universidade Federal de Pernambuco/Brazil)
+- Camilo Almendra at camilo.almendra [at] ufc.br (primary contact - Universidade Federal do Ceará/Brazil)
 - Dr. Carla Silva (Universidade Federal de Pernambuco/Brazil)
+- Dr. David Campelo (Bosch Security Systems/Portugal)
+- Dr. Jéssyka Vilela (Universidade Federal de Pernambuco/Brazil)
 
 ## Context
 
