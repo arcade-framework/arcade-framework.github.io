@@ -26,7 +26,7 @@ We seek experts from academy or industry that matches **at least one** of the fo
 - Experience in certification procedures for safety-critical systems
 - Experience in safety assurance cases
 
-The evaluation comprises a series of short videos, quick tasks and opinion questionnaires that we estimate will take 30 to 60 minutes in total.
+The evaluation comprises a series of short videos, quick tasks and opinion questionnaires that we estimate will take 60 to 70 minutes in total.
 
 To participate in the evaluation, you need to fill out the informed consent and personal profile questionnaire: [https://forms.gle/m7fgSxR2N1TngXff7](https://forms.gle/m7fgSxR2N1TngXff7) 
 
